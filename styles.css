@@ -268,4 +268,30 @@
   .additional-info-languages-item {
     color: var(--secondary-text-color);
   }
+
+  .additional-info-hobbies-header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .additional-info-hobbies-text {
+    color: var(--secondary-text-color);
+    margin-bottom: 15px;
+  }
+  
+  .additional-info-hobbies-gallery {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .additional-info-hobby-image {
+    width: 250px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid var(--border-color);
+  }
   
